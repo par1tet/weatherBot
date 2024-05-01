@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -18,
+        "lat": 65
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "пасмурно",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": -0.24,
+        "feels_like": -5.33,
+        "temp_min": -0.24,
+        "temp_max": -0.24,
+        "pressure": 1020,
+        "humidity": 88,
+        "sea_level": 1020,
+        "grnd_level": 922
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.2,
+        "deg": 222,
+        "gust": 6.86
+    },
+    "clouds": {
+        "all": 98
+    },
+    "dt": 1714581179,
+    "sys": {
+        "country": "IS",
+        "sunrise": 1714538156,
+        "sunset": 1714599719
+    },
+    "timezone": 0,
+    "id": 2629691,
+    "name": "Исландия",
+    "cod": 200
+}
