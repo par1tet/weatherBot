@@ -19,8 +19,13 @@ async def cmd_start(mes: Message):
         
     try:
         temp = data['main']['temp']
+        feels_like_temp = data['main']['feels_like']
+        weather =  data['weather'][0]['description'][0].upper() + data['weather'][0]['description'][1:]
+        humidity = data['main']['humidity']
     except KeyError:
         await mes.answer(f"""Ошибка. Данного города/региона/странны не существует.\nПопробуйте еще раз.""")
     await mes.answer(f"""
-                     Температура: {temp}
-                     """)
+Температура: {temp}°
+Чуствуется как: {feels_like_temp}°
+Погода: {weather}
+Влажность: {humidity}%""")
