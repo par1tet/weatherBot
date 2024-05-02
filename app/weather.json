@@ -1,44 +1,44 @@
 {
     "coord": {
-        "lon": -18,
-        "lat": 65
+        "lon": 31.6353,
+        "lat": 56.4978
     },
     "weather": [
         {
-            "id": 804,
-            "main": "Clouds",
-            "description": "пасмурно",
-            "icon": "04d"
+            "id": 800,
+            "main": "Clear",
+            "description": "ясно",
+            "icon": "01n"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": -0.24,
-        "feels_like": -5.33,
-        "temp_min": -0.24,
-        "temp_max": -0.24,
-        "pressure": 1020,
-        "humidity": 88,
-        "sea_level": 1020,
-        "grnd_level": 922
+        "temp": 5.98,
+        "feels_like": 4.3,
+        "temp_min": 5.98,
+        "temp_max": 5.98,
+        "pressure": 1021,
+        "humidity": 75,
+        "sea_level": 1021,
+        "grnd_level": 996
     },
     "visibility": 10000,
     "wind": {
-        "speed": 5.2,
-        "deg": 222,
-        "gust": 6.86
+        "speed": 2.22,
+        "deg": 20,
+        "gust": 6.25
     },
     "clouds": {
-        "all": 98
+        "all": 0
     },
-    "dt": 1714581179,
+    "dt": 1714676442,
     "sys": {
-        "country": "IS",
-        "sunrise": 1714538156,
-        "sunset": 1714599719
+        "country": "RU",
+        "sunrise": 1714615468,
+        "sunset": 1714671372
     },
-    "timezone": 0,
-    "id": 2629691,
-    "name": "Исландия",
+    "timezone": 10800,
+    "id": 482042,
+    "name": "Торопец",
     "cod": 200
 }
